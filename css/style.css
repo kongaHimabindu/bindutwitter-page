@@ -1,0 +1,99 @@
+html,body,.container{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+h1,h2,h3,h4,h5,h6,p,table{
+    margin:0;
+    padding:0;
+}
+.parent{
+    display:flex;
+    flex:1;
+     flex-direction: row;
+     height: 100%;
+     width:100%;
+}
+.child1{
+    display:flex;
+    flex:1;
+    background-color: deepskyblue;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.child2{
+    display:flex;
+    flex:1;
+    background-color: antiquewhite;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.line1{
+    
+    color: white;
+    margin:5%;
+
+}
+.line2{
+    
+    color:white;
+    margin:5%;
+}
+.line3{
+    
+    color:white;
+    margin:5%;
+    
+}
+.login1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:5%; 
+}
+.text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+.text1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-right: 28%;
+}
+.text2{
+    display:flex;
+    margin-right: 8%;
+}
+.signup{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.button{
+    width:400px;
+    height: 200%;
+    background-color: deepskyblue;
+    border-radius: 10px;   
+}
+.button1{
+    width:400px;
+    height: 170%;
+    border-radius: 10px;   
+
+}
+.button2{
+    border-radius: 10px;
+    background-color: deepskyblue;
+    width: 80px;
+    height:150%;
+    margin-left:180%;
+}
